@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="第 1 页" id="WqyXAUBNhNQGOXnJ9rBt">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -253,13 +253,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dku_ojpSadkpaKUjPToD-102" value="在稀有度且获取衣服次数最少的一批奖池中抽取奖池" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="690" width="170" height="60" as="geometry" />
+          <mxGeometry x="1472.5" y="690" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dku_ojpSadkpaKUjPToD-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-104" target="dku_ojpSadkpaKUjPToD-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dku_ojpSadkpaKUjPToD-104" value="在获取数量最少的一批衣服中抽取奖励" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="1720" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dku_ojpSadkpaKUjPToD-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-108">
           <mxGeometry relative="1" as="geometry">
