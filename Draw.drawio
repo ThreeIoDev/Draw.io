@@ -1,9 +1,280 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="第 1 页" id="WqyXAUBNhNQGOXnJ9rBt">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dku_ojpSadkpaKUjPToD-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="280" as="sourcePoint" />
+            <mxPoint x="190" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="dku_ojpSadkpaKUjPToD-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="280" as="sourcePoint" />
+            <mxPoint x="374" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-63" target="dku_ojpSadkpaKUjPToD-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="440" as="sourcePoint" />
+            <mxPoint x="414" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-13" target="dku_ojpSadkpaKUjPToD-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="707" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-19" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-17">
+          <mxGeometry x="-0.1733" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-13" value="连续做多保底" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="454" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="575" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-31" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-21">
+          <mxGeometry x="-0.6915" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-23" target="dku_ojpSadkpaKUjPToD-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-29" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-28">
+          <mxGeometry x="-0.0667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-23" value="计算概率" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-27" value="确定抽卡规则" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="400" as="sourcePoint" />
+            <mxPoint x="454" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-33" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-32">
+          <mxGeometry x="-0.7946" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-44" value="计算概率" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.342;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-44" target="dku_ojpSadkpaKUjPToD-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="940" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="921" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-54" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-52">
+          <mxGeometry x="-0.2093" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-44" target="dku_ojpSadkpaKUjPToD-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="409" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-57" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-55">
+          <mxGeometry x="-0.2" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="449" y="660" as="sourcePoint" />
+            <mxPoint x="920" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-58" value="粉色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-58" target="dku_ojpSadkpaKUjPToD-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="260" as="sourcePoint" />
+            <mxPoint x="560" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-63" value="紫色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="370" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-69" value="蓝色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="630" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="290" as="sourcePoint" />
+            <mxPoint x="1080" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-73" value="Draw" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-74" value="稀有度" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-75" value="奖励" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-80" target="dku_ojpSadkpaKUjPToD-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-85" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-83">
+          <mxGeometry x="-0.1333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-80" target="dku_ojpSadkpaKUjPToD-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-80" value="许愿部件保底" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="240" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-82" value="发奖励" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-86" target="dku_ojpSadkpaKUjPToD-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-92" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-89">
+          <mxGeometry x="-0.12" y="2" relative="1" as="geometry">
+            <mxPoint x="-4" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1315" y="680" as="targetPoint" />
+            <mxPoint x="1310" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-100" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-99">
+          <mxGeometry x="-0.0309" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-86" value="许愿套装保底" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1262.5" y="370" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-88" target="dku_ojpSadkpaKUjPToD-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-93" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-91">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-88" target="dku_ojpSadkpaKUjPToD-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-96" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-95">
+          <mxGeometry x="-0.24" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-88" value="保新保底" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1537.5" y="410" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-90" value="在获取数量最少的一批衣服中抽取奖励" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-94" value="随机抽取奖励" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-94" target="dku_ojpSadkpaKUjPToD-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1670" y="550" as="sourcePoint" />
+            <mxPoint x="1720" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1950" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-98" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="dku_ojpSadkpaKUjPToD-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1950" y="450" as="sourcePoint" />
+            <mxPoint x="1547.5" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-101" target="dku_ojpSadkpaKUjPToD-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-109" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-103">
+          <mxGeometry x="-0.2138" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1315" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-110" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dku_ojpSadkpaKUjPToD-107">
+          <mxGeometry x="-0.1206" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-101" value="保新保底" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1262.5" y="680" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-102" target="dku_ojpSadkpaKUjPToD-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-102" value="在稀有度且获取衣服次数最少的一批奖池中抽取奖池" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="690" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-104" target="dku_ojpSadkpaKUjPToD-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-104" value="在获取数量最少的一批衣服中抽取奖励" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-108" value="随机抽取奖池" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-112" target="dku_ojpSadkpaKUjPToD-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dku_ojpSadkpaKUjPToD-112" value="随机抽取奖励" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1537.5" y="830" width="132.5" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
