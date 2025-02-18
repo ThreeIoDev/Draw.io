@@ -186,7 +186,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dku_ojpSadkpaKUjPToD-86" value="许愿套装保底" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1262.5" y="370" width="105" height="80" as="geometry" />
+          <mxGeometry x="1262.5" y="410" width="105" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dku_ojpSadkpaKUjPToD-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dku_ojpSadkpaKUjPToD-88" target="dku_ojpSadkpaKUjPToD-90">
           <mxGeometry relative="1" as="geometry" />
