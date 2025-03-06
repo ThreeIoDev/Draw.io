@@ -118,14 +118,44 @@
         <mxCell id="f2scbYY9tvPgvcLN5l5b-10" value="回调&lt;br&gt;EnterWorld" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="f2scbYY9tvPgvcLN5l5b-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2scbYY9tvPgvcLN5l5b-12" target="f2scbYY9tvPgvcLN5l5b-16">
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2scbYY9tvPgvcLN5l5b-12" target="f2scbYY9tvPgvcLN5l5b-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f2scbYY9tvPgvcLN5l5b-12" value="EnterWorld" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="1190" y="380" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2scbYY9tvPgvcLN5l5b-16" target="f2scbYY9tvPgvcLN5l5b-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="f2scbYY9tvPgvcLN5l5b-16" value="通知world创建world" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="1010" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2scbYY9tvPgvcLN5l5b-18" target="f2scbYY9tvPgvcLN5l5b-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-18" value="MReqCreateWorld" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="480" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2scbYY9tvPgvcLN5l5b-20" target="f2scbYY9tvPgvcLN5l5b-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-20" value="MResEnterWorld" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2scbYY9tvPgvcLN5l5b-25" target="f2scbYY9tvPgvcLN5l5b-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-25" value="session记录&lt;br&gt;玩家数据到Redis" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2scbYY9tvPgvcLN5l5b-27" target="f2scbYY9tvPgvcLN5l5b-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-27" value="end" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-29" value="后续是正常登录流程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
