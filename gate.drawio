@@ -46,7 +46,7 @@
         <mxCell id="HDlahi36_DwtvmR1-DTq-14" value="CreateComponent&amp;lt;LoginComponent&amp;gt;()&lt;br&gt;生成玩家的session_id&lt;br&gt;记录到状态到gate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="200" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HDlahi36_DwtvmR1-DTq-16" target="z6gSEbufGHkCqKadq6yi-1">
+        <mxCell id="z6gSEbufGHkCqKadq6yi-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HDlahi36_DwtvmR1-DTq-16" target="z6gSEbufGHkCqKadq6yi-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HDlahi36_DwtvmR1-DTq-16" value="向session发送MReqVerify" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -55,41 +55,77 @@
         <mxCell id="HDlahi36_DwtvmR1-DTq-18" value="end" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="760" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z6gSEbufGHkCqKadq6yi-1" target="z6gSEbufGHkCqKadq6yi-3">
+        <mxCell id="z6gSEbufGHkCqKadq6yi-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z6gSEbufGHkCqKadq6yi-1" target="z6gSEbufGHkCqKadq6yi-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z6gSEbufGHkCqKadq6yi-1" target="z6gSEbufGHkCqKadq6yi-5">
+        <mxCell id="z6gSEbufGHkCqKadq6yi-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z6gSEbufGHkCqKadq6yi-1" target="z6gSEbufGHkCqKadq6yi-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-1" value="session验证通过" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z6gSEbufGHkCqKadq6yi-1" value="session验证通过" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1080" y="190" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z6gSEbufGHkCqKadq6yi-3" target="z6gSEbufGHkCqKadq6yi-10">
+        <mxCell id="z6gSEbufGHkCqKadq6yi-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z6gSEbufGHkCqKadq6yi-3" target="z6gSEbufGHkCqKadq6yi-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-3" value="向gate发送MResVerify" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z6gSEbufGHkCqKadq6yi-3" value="向gate发送MResVerify" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1250" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-5" value="gate recycle&amp;nbsp;user" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z6gSEbufGHkCqKadq6yi-5" value="gate recycle&amp;nbsp;user" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1080" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z6gSEbufGHkCqKadq6yi-7" target="z6gSEbufGHkCqKadq6yi-8">
+        <mxCell id="z6gSEbufGHkCqKadq6yi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z6gSEbufGHkCqKadq6yi-7" target="z6gSEbufGHkCqKadq6yi-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-7" value="CSelectRole" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z6gSEbufGHkCqKadq6yi-7" value="CSelectRole" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="370" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-8" value="gate通知session选角&lt;br&gt;MReqSelectRole" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="380" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z6gSEbufGHkCqKadq6yi-10" target="z6gSEbufGHkCqKadq6yi-12">
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z6gSEbufGHkCqKadq6yi-8" target="f2scbYY9tvPgvcLN5l5b-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-10" value="&lt;div&gt;conn-&amp;gt;lock&lt;/div&gt;&lt;div&gt;gate更新组件状态&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z6gSEbufGHkCqKadq6yi-8" value="gate通知session选角&lt;br&gt;MReqSelectRole" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z6gSEbufGHkCqKadq6yi-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z6gSEbufGHkCqKadq6yi-10" target="z6gSEbufGHkCqKadq6yi-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z6gSEbufGHkCqKadq6yi-10" value="&lt;div&gt;conn-&amp;gt;lock&lt;/div&gt;&lt;div&gt;gate更新组件状态&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1440" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z6gSEbufGHkCqKadq6yi-12" value="向client发送&lt;br&gt;SRoleList" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z6gSEbufGHkCqKadq6yi-12" value="向client发送&lt;br&gt;SRoleList" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1620" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2scbYY9tvPgvcLN5l5b-1" target="f2scbYY9tvPgvcLN5l5b-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-1" value="session返回玩家数据&lt;br&gt;MResSelectRole" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2scbYY9tvPgvcLN5l5b-3" target="f2scbYY9tvPgvcLN5l5b-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-3" value="gate请求和world建立连接" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2scbYY9tvPgvcLN5l5b-8" target="f2scbYY9tvPgvcLN5l5b-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-8" value="ReqEstablishedNode" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2scbYY9tvPgvcLN5l5b-10" target="f2scbYY9tvPgvcLN5l5b-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-10" value="回调&lt;br&gt;EnterWorld" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f2scbYY9tvPgvcLN5l5b-12" target="f2scbYY9tvPgvcLN5l5b-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-12" value="EnterWorld" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2scbYY9tvPgvcLN5l5b-16" value="通知world创建world" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
